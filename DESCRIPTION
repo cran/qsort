@@ -1,12 +1,14 @@
 Package: qsort
 Type: Package
 Title: Scoring Q-Sort Data
-Version: 0.2.1
+Version: 0.2.2
 Authors@R: c(
     person("João R", "Daniel", email = "joaordaniel@gmail.com",
     role = c("aut", "cre"),
     comment = c(ORCID = "https://orcid.org/0000-0001-6609-2014")),
-    person("David N", "Sousa", email = "davidnsousa@gmail.com", role = "aut"))
+    person("David N", "Sousa", email = "davidnsousa@gmail.com",
+    role = c("aut"),
+    comment = c(ORCID = "https://orcid.org/0000-0001-7277-6447")))
 Description: Computes scores from Q-sort data, using criteria sorts and
   derived scales from subsets of items.
   The 'qsort' package includes descriptions and scoring procedures
@@ -21,11 +23,11 @@ Suggests: devtools, knitr, roxygen2
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.0
 NeedsCompilation: no
-Packaged: 2018-06-19 10:28:21 UTC; jdani
+Packaged: 2018-08-19 23:36:58 UTC; david
 Author: João R Daniel [aut, cre] (<https://orcid.org/0000-0001-6609-2014>),
-  David N Sousa [aut]
+  David N Sousa [aut] (<https://orcid.org/0000-0001-7277-6447>)
 Maintainer: João R Daniel <joaordaniel@gmail.com>
 Repository: CRAN
-Date/Publication: 2018-06-19 11:58:00 UTC
+Date/Publication: 2018-08-20 09:50:03 UTC
